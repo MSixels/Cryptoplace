@@ -1,0 +1,21 @@
+import React from 'react'
+import './Home.css'
+
+const Home = () => {
+  return (
+    <div className='home'>
+      <div className="hero">
+        <h1>Largest <br /> Crypto Marketplace</h1>
+        <p>
+          Welcome to the world's largest cryptocurrency marketplace. Sign up to explore more about cryptos
+          <form>
+            <input type="text" placeholder='Search crypto...' />
+            <button type='submit'>Search</button>
+          </form>
+        </p>
+      </div>
+    </div>
+  )
+}
+
+export default Home
