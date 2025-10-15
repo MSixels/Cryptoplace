@@ -1,16 +1,52 @@
-# React + Vite
+# Cryptoplace 🪙
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+O Cryptoplace é uma aplicação web desenvolvida para que os usuários possam acompanhar as atualizações do mercado de criptomoedas em tempo real. Com uma interface intuitiva e responsiva, o projeto oferece gráficos e dados atualizados para uma análise rápida e eficiente.
 
-Currently, two official plugins are available:
+## ✨ Funcionalidades
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+* **Visualização de Criptomoedas:** Veja uma lista completa das principais criptomoedas do mercado.
+* **Dados em Tempo Real:** As informações são atualizadas constantemente através da integração com a API da CoinGecko.
+* **Gráficos Interativos:** Utilize os gráficos do React Google Charts para analisar o histórico de preços e outras métricas importantes.
+* **Busca e Filtro:** Encontre facilmente as criptomoedas que você deseja acompanhar.
 
-## React Compiler
+## 🚀 Tecnologias Utilizadas
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* **React:** Biblioteca JavaScript para a construção de interfaces de usuário.
+* **Vite:** Ferramenta de build para um desenvolvimento frontend mais rápido e otimizado.
+* **CoinGecko API:** API gratuita e completa para obter dados do mercado de criptomoedas.
+* **React Google Charts:** Componentes React para a renderização de gráficos do Google Charts.
+* **ESLint:** Ferramenta para identificar e relatar padrões encontrados no código ECMAScript/JavaScript.
 
-## Expanding the ESLint configuration
+## ⚙️ Como Executar o Projeto
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Siga os passos abaixo para executar o projeto em seu ambiente de desenvolvimento local:
+
+1.  **Clone o repositório:**
+    ```bash
+    git clone [https://github.com/MSixels/Cryptoplace.git](https://github.com/MSixels/Cryptoplace.git)
+    ```
+
+2.  **Acesse o diretório do projeto:**
+    ```bash
+    cd Cryptoplace
+    ```
+
+3.  **Instale as dependências:**
+    ```bash
+    npm install
+    ```
+
+4.  **Inicie o servidor de desenvolvimento:**
+    ```bash
+    npm run dev
+    ```
+
+5.  **Abra o seu navegador e acesse:** `http://localhost:5173/` (ou a porta que for indicada no seu terminal).
+
+## 📄 Licença
+
+Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+---
+
+Feito com ❤️ por [MSixels](https://github.com/MSixels)

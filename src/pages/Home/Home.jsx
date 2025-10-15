@@ -32,12 +32,12 @@ const Home = () => {
   return (
     <div className='home'>
       <div className="hero">
-        <h1>Largest<br /> Crypto Marketplace</h1>
+        <h1>A Maior<br /> Corretora de Criptomoedas</h1>
         <p>
-          Welcome to the world's largest cryptocurrency marketplace. Sign up to explore more about cryptos
+          Boas-vindas à maior corretora de criptomoedas do mundo. Cadastre-se para explorar o universo cripto.
         </p>
           <form onSubmit={searchHandler}>
-            <input onChange={inputHandler} list='coinlist' value={input} type="text" placeholder='Search crypto...' required/>
+            <input onChange={inputHandler} list='coinlist' value={input} type="text" placeholder='Pesquisar cripto...' required/>
             <datalist id='coinlist'>
               {allCoin.map((item, index) => (
                 <option key={index} value={item.name}/>
@@ -46,16 +46,16 @@ const Home = () => {
             </datalist>
 
 
-            <button type='submit'>Search</button>
+            <button type='submit'>Pesquisar</button>
           </form>
       </div>
       <div className="crypto-table">
         <div className="table-layout">
           <p>#</p>
-          <p>Coins</p>
-          <p>Price</p>
-          <p style={{textAlign:"center"}}>24h Change</p>
-          <p className='market-cap'>Market Cap</p>
+          <p>Moedas</p>
+          <p>Preço</p>
+          <p style={{textAlign:"center"}}>Variação (24h)</p>
+          <p className='market-cap'>Valor de mercado</p>
         </div>
         {
         displayCoin.slice(0, 10).map((item, index) => (

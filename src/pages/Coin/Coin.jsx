@@ -64,25 +64,25 @@ useEffect(() => {
 
       <div className="coin-info">
         <ul>
-          <li>Crypto Market Rank</li>
+          <li>Posição no Ranking</li>
           <li>{coinData.market_cap_rank}</li>
         </ul>
         <ul>
-          <li>Current Price</li>
+          <li>Cotação Atual</li>
           <li>
               {currency.symbol} {coinData.market_data.current_price[currency.name.toLowerCase()].toLocaleString()}
           </li>
         </ul>
         <ul>
-          <li>Market Cap</li>
+          <li>Valor de mercado</li>
           <li>{currency.symbol} {coinData.market_data.market_cap[currency.name.toLowerCase()].toLocaleString()}</li>
         </ul>
         <ul>
-          <li>24 Hour high</li>
+          <li>Máxima (24h)</li>
           <li>{currency.symbol} {coinData.market_data.high_24h[currency.name.toLowerCase()].toLocaleString()}</li>
         </ul>
         <ul>
-          <li>24 Hour low</li>
+          <li>Mínima (24h)</li>
           <li>{currency.symbol} {coinData.market_data.low_24h[currency.name.toLowerCase()].toLocaleString()}</li>
         </ul>
       </div>
